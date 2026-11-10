@@ -37,7 +37,7 @@ class AppTheme {
           letterSpacing: -0.3,
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: AppColors.darkNavyCard,
         elevation: 0,
         margin: EdgeInsets.zero,
@@ -195,7 +195,7 @@ class AppTheme {
           letterSpacing: -0.3,
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: AppColors.lightCard,
         elevation: 1,
         shadowColor: Colors.black.withOpacity(0.04),
